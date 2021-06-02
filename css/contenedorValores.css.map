@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACb,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;EACT,qBAAqB,EAAE,GAAG;CAE/B",
+    "sources": [
+        "../sass/01_index/contenedorValores.scss"
+    ],
+    "names": [],
+    "file": "contenedorValores.css"
+}

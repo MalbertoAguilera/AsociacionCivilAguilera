@@ -1,0 +1,18 @@
+.footer {
+      .contenedorFooter {
+            max-width: $contenedor_xxl;
+            .redesSociales {
+                  margin: $space;
+                  .redesSociales__elementos {
+                        .redesSociales__item {
+                              margin: 0 $space;
+                              .enlace__item {
+                                    .enlace__icono {
+                                          font-size: 65px;
+                                    }
+                              }
+                        }
+                  }
+            }
+      }
+}

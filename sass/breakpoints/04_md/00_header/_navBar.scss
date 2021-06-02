@@ -1,0 +1,17 @@
+.header{
+      .contenedorHeader{
+            max-width: $contenedor-md;
+            .navbar {
+                  .elemento__logo {
+                        .logo__imagen {
+                              height: $md-icono;
+                        }
+                        .logo__titulo {
+                              .logo__titulo--texto {
+                                    font-size: $md-title-font;
+                              }
+                        }
+                  }
+            }
+      }   
+}

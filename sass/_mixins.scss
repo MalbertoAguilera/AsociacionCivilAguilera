@@ -1,0 +1,19 @@
+@mixin centrarConMargin {
+      margin: auto;
+}
+
+@mixin centrarConFlexboxRow ($isWrap:wrap) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: $isWrap;
+      justify-content: center;
+      align-content: center;
+}
+
+@mixin centrarConFlexboxColumn ($isWrap:wrap) {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: $isWrap;
+      justify-content: center;
+      align-items: center;
+}

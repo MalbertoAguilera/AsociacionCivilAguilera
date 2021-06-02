@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Yanone+Kaffeesatz:wght@200;300;400;500;600&display=swap');
+
+*{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+}
+
+html{
+      font-size: 16px;
+      scroll-behavior: smooth;
+}
+
+body{
+      // background: blue;
+      background: url('../img/patterns/memphis-colorful.png');
+      
+      header{
+            &.row{
+                  --bs-gutter-x: 1rem;
+            }
+      }
+      
+      .container {
+            
+            max-width: $contenedor_mini;
+
+            .contenedorActividad{
+                  &.row{
+                        --bs-gutter-x: 0;
+                  }
+            }
+            
+            
+      }
+}
+
+ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+}
+
+a {
+      text-decoration: none;
+}

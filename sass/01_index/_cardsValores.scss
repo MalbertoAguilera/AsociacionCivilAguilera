@@ -1,0 +1,109 @@
+.contenedorValores {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr;
+
+      .card {
+            width: 100%;
+            padding: $space;
+            background-color: $color2;
+            text-align: center;
+            position: relative;
+            /*hidden secreto del efecto*/
+            overflow: hidden;
+
+            &.card--color1 {
+                  border-top: 20px solid $color5;
+            }
+
+            &.card--color2 {
+                  border-top: 20px solid $color4;
+            }
+
+            &.card--color3 {
+                  border-top: 20px solid blue;
+            }
+
+            &.card--color4 {
+                  border-top: 20px solid $color6;
+            }
+
+
+            .card__icon {
+                  position: relative;
+                  z-index: 1;
+                  font-size: 2rem;
+                  color: gray;
+            }
+
+            .card__title {
+                  // position relative y  index se usan juntos para el
+                  position: relative;
+                  z-index: 1;
+                  margin-top: 10px;
+                  font-family: $fontFamily2;
+                  font-size: $font-card-title-xxs;
+                  color: gray;
+            }
+
+            .card__info {
+                  position: relative;
+                  z-index: 1;
+                  margin-top: 10px;
+                  font-size: $font-xxs;
+                  color: gray;
+            }
+
+            .card__background {
+                  width: 100%;
+                  height: 100%;
+                  position: absolute;
+
+                  top: -100%;
+                  left: 0%;
+                  transition: all 1000ms;
+
+                  &.card__background--color1 {
+                        background-color: $color5;
+                  }
+
+                  &.card__background--color2 {
+                        background-color: $color4;
+                  }
+
+                  &.card__background--color3 {
+                        background-color: blue;
+                  }
+
+                  &.card__background--color4 {
+                        background-color: $color6;
+                  }
+            }
+
+            &:hover {
+                  .card__background {
+                        width: 100%;
+                        height: 100%;
+                        top: 0px;
+                        left: 0px;
+                  }
+
+                  .card__icon {
+                        color: white;
+                        text-shadow: 0px 0px 10px $color1;
+                  }
+
+                  .card__title {
+                        color: white;
+                        text-shadow: 0px 0px 10px $color1;
+                  }
+
+                  .card__info {
+                        color: white;
+                        text-shadow: 0px 0px 10px $color1;
+                  }
+
+            }
+      }
+
+}

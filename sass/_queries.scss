@@ -1,0 +1,102 @@
+/*dispositivos 360px*/
+@media only screen and (min-device-width: $device-xxs) {
+
+      body {
+            @import '../sass/breakpoints/01_xxs/00_header/navBar';
+            .container {
+                  max-width: $contenedor-xxs;
+
+
+            }
+      }
+
+}
+
+/*dispositivos 480px*/
+@media only screen and (min-device-width: $device-xs) {
+      body {
+            @import '../sass/breakpoints/02_xs/00_header/navBar';
+            .container {
+                  max-width: $contenedor-xs;
+
+                  @import '../sass/breakpoints/02_xs/01_index/index';
+
+
+            }
+      }
+}
+
+/*dispositivos 576px*/
+@media only screen and (min-device-width: $device-sm) {
+      body {
+            @import '../sass/breakpoints/03_sm/00_header/navBar';
+
+            .container {
+                  max-width: $contenedor-sm;
+
+                  @import '../sass/breakpoints/03_sm/01_index/index';
+
+            }
+      }
+}
+
+/*dispositivos 768px*/
+@media only screen and (min-device-width: $device-md) {
+      body {
+            @import '../sass/breakpoints/04_md/00_header/navBar';
+            .container {
+                  max-width: $contenedor-md;
+
+                  @import '../sass/breakpoints/04_md/01_index/index';
+
+            }
+            @import '../sass/breakpoints/04_md/06_footer/footer';
+      }
+}
+
+/*dispositivos 992px*/
+@media only screen and (min-device-width: $device-lg) {
+      body {
+            @import '../sass/breakpoints/05_lg/00_header/navBar';
+
+            .container {
+                  max-width: $contenedor-lg;
+                  @import '../sass/breakpoints/05_lg/01_index/index';
+
+            }
+            @import '../sass/breakpoints/05_lg/06_footer/footer';
+      }
+}
+
+/*dispositivos 1200px*/
+@media only screen and (min-device-width: $device-xl) {
+      body {
+
+            @import '../sass/breakpoints/06_xl/00_header/navBar';
+            .container {
+                  max-width: $contenedor-xl;
+
+                  @import '../sass/breakpoints/06_xl/01_index/index';
+
+
+            }
+            @import '../sass/breakpoints/06_xl/06_footer/footer';
+      }
+
+}
+
+/*dispositivos 1400px*/
+@media only screen and (min-device-width: $device-xxl) {
+      body {
+            @import '../sass/breakpoints/07_xxl/00_header/navBar';
+
+            .container {
+                  max-width: $contenedor-xxl;
+
+                  @import '../sass/breakpoints/07_xxl/01_index/index';
+
+            }
+            @import '../sass/breakpoints/07_xxl/06_footer/footer';
+
+      }
+}

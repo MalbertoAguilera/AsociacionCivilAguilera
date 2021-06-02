@@ -1,0 +1,24 @@
+.contenedorValores {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+            "card1      card2"
+            "card3      card4";
+
+      .card {
+            &.card--color1 {
+                  grid-area: card1;
+            }
+
+            &.card--color2 {
+                  grid-area: card2;
+            }
+
+            &.card--color3 {
+                  grid-area: card3;
+            }
+
+            &.card--color4 {
+                  grid-area: card4;
+            }
+      }
+}

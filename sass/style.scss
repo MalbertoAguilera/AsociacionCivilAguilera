@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'default';
+@import 'mixins';
+@import 'animaciones';
+
+/*----------ESTRUCTURA MENOR A 360PX-----------*/
+@import '../sass/00_header/navBar';
+
+@import '../sass/01_index/index';
+
+
+@import '../sass/06_footer/footer';
+
+/*----------FIN ESTRUCTURA MENOR A 360PX-----------*/
+@import 'queries';

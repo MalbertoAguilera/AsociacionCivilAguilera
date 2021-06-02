@@ -1,0 +1,21 @@
+.header{
+      .contenedorHeader{
+            max-width: $contenedor-xs;
+            .navbar {
+                  .elemento__logo {
+                        .logo__imagen {
+                              height: $xs-icono;
+                        }
+                        .logo__titulo {
+                              display: flex;
+                              flex-direction: row;
+                              text-align: center;
+                              .logo__titulo--texto {
+                                    font-size: $xs-title-font;
+                                    margin-right: $small-space;
+                              }
+                        }
+                  }
+            }
+      }   
+}

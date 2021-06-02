@@ -1,0 +1,17 @@
+.header{
+      .contenedorHeader{
+            max-width: $contenedor-xl;
+            .navbar {
+                  .elemento__logo {
+                        .logo__imagen {
+                              height: $xl-icono;
+                        }
+                        .logo__titulo {
+                              .logo__titulo--texto {
+                                    font-size: $xl-title-font;
+                              }
+                        }
+                  }
+            }
+      }   
+}

@@ -1,0 +1,18 @@
+.cardInfo {
+      .cardInfo__elementos {
+            background-color: $color2;
+            border-radius: .5rem;
+            text-align: center;
+
+            .cardInfo__titulo {
+                  font-family: $fontFamily2;
+                  border-bottom: 1px solid $color5;
+                  
+            }
+
+            .cardInfo__informacion{
+                  background: $color2;
+                  font-size: $font-xxs;
+            }
+      }
+}

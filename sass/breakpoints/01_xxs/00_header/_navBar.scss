@@ -1,0 +1,20 @@
+.header{
+      .contenedorHeader{
+            max-width: $contenedor-xxs;
+            .navbar {
+                  .elemento__logo {
+                        .logo__imagen {
+                              height: $xs-icono;
+                        }
+            
+                        .logo__titulo {
+                              .logo__titulo--texto {
+                                    font-size: $s-title-font;
+                              }
+                        }
+                  }
+            
+            }
+      }
+      
+}

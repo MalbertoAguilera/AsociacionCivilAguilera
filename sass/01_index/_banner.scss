@@ -1,0 +1,46 @@
+.banner_contenedor {
+      position: relative;
+
+      .banner__mensajeSlogan {
+            position: absolute;
+            left: 22%;
+            top: 28%;
+            font-family: $fontFamily1;
+            z-index: 100;
+
+            .slogan {
+                  display: inline;
+                  font-family: $fontFamily1;
+                  font-size: $font-slogan-xxs;
+                  
+
+                  &.slogan--palabra1 {
+                        color: rgb(10, 209, 10);
+                  }
+
+                  &.slogan--palabra2 {
+                        color: red;
+                  }
+
+                  &.slogan--palabra3 {
+                        color: blue;
+                  }
+
+                  &.slogan--palabra4 {
+                        color: $color5;
+                  }
+            }
+      }
+
+      .banner__imagen {
+            width: 100%;
+      }
+
+      .banner__referencia {
+            background-color: gray;
+            color: white;
+            display: block;
+            text-align: center;
+            font-size: 0.5rem;
+      }
+}

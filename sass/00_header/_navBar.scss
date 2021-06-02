@@ -1,0 +1,61 @@
+.header{
+      /*color del NAV*/
+      background-color:$color_NavBar;
+      
+
+      .contenedorHeader{
+            max-width: $contenedor-mini;
+            @include centrarConMargin;
+            .navbar {
+                  /** &.navbar--color {
+                        // background-color: $color3;
+                  }
+
+                  */
+            
+                  &.navbar-light .navbar-nav .nav-link,
+                  .navbar-light .navbar-nav .nav-link.active {
+                        color: $color_letra_navBar;
+            
+                        &:hover {
+                              border-bottom: 2px solid $color_letra_navBar;
+                              color: $color_letra_navBar;
+                        }
+                  }
+            
+                  .elemento__logo {
+                        .logo__imagen {
+                              height: $xs-icono;
+                        }
+            
+                        .logo__titulo {
+                              display: flex;
+                              flex-direction: column;
+                              text-align: center;
+            
+                              .logo__titulo--texto {
+                                    font-family: 'Covered By Your Grace', cursive;
+                                    font-size: $s-title-font;
+                                    color: $color_titulo_logo;
+                                    text-shadow: 0px 0px 4px $color1;
+                                    
+                              }
+                        }
+                  }
+            
+                  .dropdown-menu {
+                        min-width: 100%;
+                        background-color: #49ecec;
+                        text-align: center;
+            
+                        .dropdown-item {
+                              &:hover {
+                                    background-color: $color_letra_navBar;
+                                    color: white;
+                              }
+                        }
+                  }
+            }
+      }
+      
+}

@@ -1,0 +1,45 @@
+.footer {
+      background-color: $color1;
+      width: 100%;
+      .contenedorFooter {
+            max-width: $contenedor_mini;
+            @include centrarConMargin;
+            @include centrarConFlexboxColumn;
+            
+
+            .footer__datos {
+                  order: 2;
+                  margin-bottom: $small-space;
+
+                  .footer__texto {
+                        color: white;
+                  }
+            }
+
+            .redesSociales {
+                  margin: $small-space;
+
+                  .redesSociales__elementos {
+                        display: flex;
+                        flex-wrap: nowrap;
+
+                        .redesSociales__item {
+                              margin: 0 $small-space;
+
+                              .enlace__item {
+                                    .enlace__icono {
+                                          font-size: 30px;
+                                          color: white;
+
+                                          &:hover {
+                                                color: $color4;
+                                          }
+                                    }
+                              }
+                        }
+                  }
+            }
+      }
+
+
+}

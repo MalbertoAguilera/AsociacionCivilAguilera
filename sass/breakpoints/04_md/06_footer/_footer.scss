@@ -1,0 +1,32 @@
+.footer {
+      .contenedorFooter {
+            max-width: $contenedor_md;
+            @include centrarConFlexboxRow;
+            justify-content: space-between;
+
+            .footer__datos {
+                  order: 1;
+                  margin-bottom: 0;
+            }
+
+            .redesSociales {
+                  margin: $small-space;
+                  order: 2;
+
+                  .redesSociales__elementos {
+                        display: flex;
+                        flex-wrap: nowrap;
+
+                        .redesSociales__item {
+                              margin: 0 $small-space;
+
+                              .enlace__item {
+                                    .enlace__icono {
+                                          font-size: 60px;
+                                    }
+                              }
+                        }
+                  }
+            }
+      }
+}
