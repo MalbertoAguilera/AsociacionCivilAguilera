@@ -1,50 +1,14 @@
 .contenedorActividad {
 
       .actividad {
-            margin: $small-space auto;
-            position: relative;
-            text-align: center;
-
-            .actividad__titulo {
-                  font-family: $fontFamily1;
-            }
-
-            .actividad__imagen {
-                  filter: opacity(25%);
-                  transition: all 1s ease-in-out;
-                  width: 100%;
-            }
-
             .actividad__descripcion {
-                  position: absolute;
-                  opacity: 0;
-                  transition: all 1s ease-in-out;
-                  bottom: 0px;
-                  width: 100%;
-                  color: white;
-                  overflow-y: scroll;
-                  // line-height: normal;
-                  padding: 10px;
                   height: 86%;
                   transition: all 1s ease-in-out 2s;
-
 
                   &.actividad__descripcion--deportiva,
                   &.actividad__descripcion--recreativa {
                         @include centrarConFlexboxRow;
                   }
             }
-
-            &:hover {
-                  .actividad__imagen {
-                        filter: opacity(100%);
-                  }
-
-                  .actividad__descripcion {
-                        background: #0116279d;
-                        opacity: 1;
-                  }
-            }
-
       }
 }

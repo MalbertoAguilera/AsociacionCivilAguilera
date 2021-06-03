@@ -38,6 +38,7 @@
                   max-width: $contenedor-sm;
 
                   @import '../sass/breakpoints/03_sm/01_index/index';
+                  @import'../sass/breakpoints/03_sm/02_actividades/actividades';
 
             }
       }

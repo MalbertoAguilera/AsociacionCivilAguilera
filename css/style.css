@@ -397,8 +397,6 @@ a {
 .contenedorActividad .actividad .actividad__descripcion {
   position: absolute;
   opacity: 0;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
   bottom: 0px;
   width: 100%;
   color: white;
@@ -514,31 +512,7 @@ a {
   body .container {
     max-width: 340px;
   }
-  body .container .contenedorActividad .actividad {
-    margin: 0.5rem auto;
-    position: relative;
-    text-align: center;
-  }
-  body .container .contenedorActividad .actividad .actividad__titulo {
-    font-family: "Covered By Your Grace", cursive;
-  }
-  body .container .contenedorActividad .actividad .actividad__imagen {
-    -webkit-filter: opacity(25%);
-            filter: opacity(25%);
-    -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-    width: 100%;
-  }
   body .container .contenedorActividad .actividad .actividad__descripcion {
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-    bottom: 0px;
-    width: 100%;
-    color: white;
-    overflow-y: scroll;
-    padding: 10px;
     height: 86%;
     -webkit-transition: all 1s ease-in-out 2s;
     transition: all 1s ease-in-out 2s;
@@ -558,14 +532,6 @@ a {
             justify-content: center;
     -ms-flex-line-pack: center;
         align-content: center;
-  }
-  body .container .contenedorActividad .actividad:hover .actividad__imagen {
-    -webkit-filter: opacity(100%);
-            filter: opacity(100%);
-  }
-  body .container .contenedorActividad .actividad:hover .actividad__descripcion {
-    background: #0116279d;
-    opacity: 1;
   }
 }
 
@@ -632,31 +598,7 @@ a {
     font-family: "Covered By Your Grace", cursive;
     font-size: 2rem;
   }
-  body .container .contenedorActividad .actividad {
-    margin: 0.5rem auto;
-    position: relative;
-    text-align: center;
-  }
-  body .container .contenedorActividad .actividad .actividad__titulo {
-    font-family: "Covered By Your Grace", cursive;
-  }
-  body .container .contenedorActividad .actividad .actividad__imagen {
-    -webkit-filter: opacity(25%);
-            filter: opacity(25%);
-    -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-    width: 100%;
-  }
   body .container .contenedorActividad .actividad .actividad__descripcion {
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-    bottom: 0px;
-    width: 100%;
-    color: white;
-    overflow-y: scroll;
-    padding: 10px;
     height: 89%;
     -webkit-transition: all 1s ease-in-out 2s;
     transition: all 1s ease-in-out 2s;
@@ -674,14 +616,6 @@ a {
             justify-content: center;
     -ms-flex-line-pack: center;
         align-content: center;
-  }
-  body .container .contenedorActividad .actividad:hover .actividad__imagen {
-    -webkit-filter: opacity(100%);
-            filter: opacity(100%);
-  }
-  body .container .contenedorActividad .actividad:hover .actividad__descripcion {
-    background: #0116279d;
-    opacity: 1;
   }
 }
 
@@ -715,6 +649,10 @@ a {
   }
   body .container .cardInfo .cardInfo__elementos .cardInfo__informacion {
     font-size: 1rem;
+  }
+  body .container .contenedorActividad .actividad .actividad__descripcion {
+    overflow-y: none;
+    height: 90.3%;
   }
 }
 
