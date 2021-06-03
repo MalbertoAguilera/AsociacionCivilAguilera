@@ -6,6 +6,8 @@
             .container {
                   max-width: $contenedor-xxs;
 
+                  @import'../sass/breakpoints/01_xxs/02_actividades/actividades';
+
 
             }
       }
@@ -20,6 +22,7 @@
                   max-width: $contenedor-xs;
 
                   @import '../sass/breakpoints/02_xs/01_index/index';
+                  @import'../sass/breakpoints/02_xs/02_actividades/actividades';
 
 
             }
