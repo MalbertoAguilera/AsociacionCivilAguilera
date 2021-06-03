@@ -839,6 +839,9 @@ a {
     width: 70%;
     padding-bottom: 40%;
   }
+  body .container .contenedorActividad .actividad .actividad__descripcion {
+    height: 94.1%;
+  }
   body .footer .contenedorFooter {
     max-width: 1320px;
   }
