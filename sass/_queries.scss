@@ -52,6 +52,7 @@
                   max-width: $contenedor-md;
 
                   @import '../sass/breakpoints/04_md/01_index/index';
+                  @import'../sass/breakpoints/04_md/02_actividades/actividades';
 
             }
             @import '../sass/breakpoints/04_md/06_footer/footer';

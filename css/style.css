@@ -677,6 +677,11 @@ a {
   body .container .banner_contenedor .banner__mensajeSlogan .slogan {
     font-size: 3rem;
   }
+  body .container .contenedorActividad .actividad .actividad__descripcion {
+    overflow-y: none;
+    line-height: 1.5;
+    height: 92.5%;
+  }
   body .footer .contenedorFooter {
     max-width: 720px;
     display: -webkit-box;
