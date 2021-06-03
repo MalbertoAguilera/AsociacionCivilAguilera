@@ -63,10 +63,12 @@
 @media only screen and (min-device-width: $device-lg) {
       body {
             @import '../sass/breakpoints/05_lg/00_header/navBar';
+            @import'../sass/breakpoints/05_lg/02_actividades/actividades';
 
             .container {
                   max-width: $contenedor-lg;
                   @import '../sass/breakpoints/05_lg/01_index/index';
+                  @import'../sass/breakpoints/05_lg/02_actividades/actividades';
 
             }
             @import '../sass/breakpoints/05_lg/06_footer/footer';

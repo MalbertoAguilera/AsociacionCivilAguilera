@@ -3,6 +3,7 @@
       .actividad {
 
             .actividad__descripcion {
+                  overflow-y: visible;
                   height: 89%;
                   transition: all 1s ease-in-out 2s;
                   @include centrarConFlexboxRow;

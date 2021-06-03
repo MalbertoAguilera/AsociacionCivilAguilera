@@ -599,6 +599,7 @@ a {
     font-size: 2rem;
   }
   body .container .contenedorActividad .actividad .actividad__descripcion {
+    overflow-y: visible;
     height: 89%;
     -webkit-transition: all 1s ease-in-out 2s;
     transition: all 1s ease-in-out 2s;
@@ -740,6 +741,11 @@ a {
   body .header .contenedorHeader .navbar .elemento__logo .logo__titulo .logo__titulo--texto {
     font-size: 1.8rem;
   }
+  body .contenedorActividad .actividad .actividad__descripcion {
+    line-height: 1.7;
+    height: 92%;
+    font-size: 1.3rem;
+  }
   body .container {
     max-width: 960px;
   }
@@ -758,6 +764,11 @@ a {
   }
   body .container .banner_contenedor .banner__mensajeSlogan .slogan {
     font-size: 4rem;
+  }
+  body .container .contenedorActividad .actividad .actividad__descripcion {
+    line-height: 1.7;
+    height: 92%;
+    font-size: 1.3rem;
   }
   body .footer .contenedorFooter {
     max-width: 960px;
