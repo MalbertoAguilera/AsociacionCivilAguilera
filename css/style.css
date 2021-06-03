@@ -801,6 +801,9 @@ a {
   body .container .banner_contenedor .banner__mensajeSlogan .slogan {
     font-size: 4.5rem;
   }
+  body .container .contenedorActividad .actividad .actividad__descripcion {
+    height: 93.1%;
+  }
   body .footer .contenedorFooter {
     max-width: 1140px;
   }
