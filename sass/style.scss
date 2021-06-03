@@ -4,12 +4,15 @@
 @import 'animaciones';
 
 /*----------ESTRUCTURA MENOR A 360PX-----------*/
+/*HEADER*/
 @import '../sass/00_header/navBar';
-
+/*Secciones HTML*/
 @import '../sass/01_index/index';
+@import '../sass/02_actividades/actividades';
 
-
+/*FOOTER*/
 @import '../sass/06_footer/footer';
 
 /*----------FIN ESTRUCTURA MENOR A 360PX-----------*/
+
 @import 'queries';

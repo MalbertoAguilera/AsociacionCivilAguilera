@@ -18,6 +18,7 @@ html {
 
 body {
   background: url("../img/patterns/memphis-colorful.png");
+  color: #09416c;
 }
 
 body header.row {
@@ -127,6 +128,7 @@ a {
 }
 
 /*----------ESTRUCTURA MENOR A 360PX-----------*/
+/*HEADER*/
 .header {
   /*color del NAV*/
   background-color: #17f7f7;
@@ -189,6 +191,7 @@ a {
   color: white;
 }
 
+/*Secciones HTML*/
 .banner_contenedor {
   position: relative;
 }
@@ -373,6 +376,50 @@ a {
   height: 100%;
 }
 
+.contenedorActividad .actividad {
+  margin: 0.5rem auto;
+  position: relative;
+  text-align: center;
+}
+
+.contenedorActividad .actividad .actividad__titulo {
+  font-family: "Covered By Your Grace", cursive;
+}
+
+.contenedorActividad .actividad .actividad__imagen {
+  -webkit-filter: opacity(25%);
+          filter: opacity(25%);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+
+.contenedorActividad .actividad .actividad__descripcion {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  overflow-y: scroll;
+  padding: 10px;
+  height: 84%;
+  -webkit-transition: all 1s ease-in-out 2s;
+  transition: all 1s ease-in-out 2s;
+}
+
+.contenedorActividad .actividad:hover .actividad__imagen {
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+}
+
+.contenedorActividad .actividad:hover .actividad__descripcion {
+  background: #0116279d;
+  opacity: 1;
+}
+
+/*FOOTER*/
 .footer {
   background-color: #09416c;
   width: 100%;
