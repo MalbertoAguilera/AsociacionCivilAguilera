@@ -493,8 +493,9 @@ a {
 
 .contenedorContacto .contenedorFormulario {
   margin: auto;
-  border-radius: 0.25rem;
-  background: #faf6f1;
+  border-radius: 0.5rem;
+  background: #fcfcfc;
+  padding: 20px 5px;
 }
 
 .contenedorContacto .contenedorFormulario .formulario__intro {
@@ -513,7 +514,6 @@ a {
 }
 
 .contenedorContacto .contenedorFormulario .formulario {
-  background: #fcfcfc;
   width: 100%;
   margin: 10px auto;
   padding: 5px;
@@ -611,14 +611,14 @@ a {
 .contenedorContacto .contenedorMapa {
   margin: auto;
   border-radius: 0.25rem;
-  background: #faf6f1;
+  background: #fcfcfc;
+  padding: 20px 5px;
 }
 
 .contenedorContacto .contenedorMapa .ubicacion__intro {
   text-align: center;
   margin: auto;
   border-radius: 0.25rem;
-  background: #faf6f1;
 }
 
 .contenedorContacto .contenedorMapa .ubicacion__intro .ubicacion__titulo {

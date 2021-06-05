@@ -1,13 +1,13 @@
 .contenedorMapa {
       margin: auto;
       border-radius: 0.25rem;
-      background: rgb(250, 246, 241);
+      background: rgb(252, 252, 252);
+      padding: 20px 5px;
 
       .ubicacion__intro {
             text-align: center;
             margin: auto;
             border-radius: 0.25rem;
-            background: rgb(250, 246, 241);
 
             .ubicacion__titulo {
                   @include formatoTituloContacto;
@@ -20,6 +20,7 @@
 
       .contenedorSecundario {
             @include centrarConFlexboxColumn;
+
             .mapa__pequeño {
                   display: static;
             }
