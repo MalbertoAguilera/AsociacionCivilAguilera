@@ -654,7 +654,7 @@ a {
   display: static;
 }
 
-.contenedorContacto .contenedorMapa .contenedorSecundario .mapa__grande {
+.contenedorContacto .contenedorMapa .contenedorSecundario .mapa__mediano {
   display: none;
 }
 
@@ -875,6 +875,12 @@ a {
         -ms-flex-align: center;
             align-items: center;
   }
+  body .container .contenedorMapa .contenedorSecundario .mapa__pequeño {
+    display: none;
+  }
+  body .container .contenedorMapa .contenedorSecundario .mapa__mediano {
+    display: block;
+  }
 }
 
 /*dispositivos 576px*/
@@ -939,6 +945,12 @@ a {
     overflow-y: none;
     line-height: 1.5;
     height: 92.5%;
+  }
+  body .container .contenedorMapa .contenedorSecundario .mapa__pequeño {
+    display: block;
+  }
+  body .container .contenedorMapa .contenedorSecundario .mapa__mediano {
+    display: none;
   }
   body .footer .contenedorFooter {
     max-width: 720px;
@@ -1061,6 +1073,12 @@ a {
   }
   body .container .contenedorActividad .actividad .actividad__descripcion {
     height: 93.1%;
+  }
+  body .container .contenedorMapa .contenedorSecundario .mapa__pequeño {
+    display: none;
+  }
+  body .container .contenedorMapa .contenedorSecundario .mapa__mediano {
+    display: block;
   }
   body .footer .contenedorFooter {
     max-width: 1140px;
