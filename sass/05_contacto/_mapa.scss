@@ -1,0 +1,63 @@
+.contenedorMapa {
+      margin: auto;
+      border-radius: 0.25rem;
+      background: rgb(250, 246, 241);
+
+      .ubicacion__intro {
+            text-align: center;
+            margin: auto;
+            border-radius: 0.25rem;
+            background: rgb(250, 246, 241);
+
+            .ubicacion__titulo {
+                  @include formatoTituloContacto;
+            }
+
+            .ubicacion__subtitulo {
+                  @include formatoSubtituloContacto;
+            }
+      }
+
+      .contenedorSecundario {
+            @include centrarConFlexboxColumn;
+            .mapa__pequeño {
+                  display: static;
+            }
+
+            .mapa__grande {
+                  display: none;
+            }
+
+            .datos {
+                  .datos__item {
+                        display: grid;
+                        grid-template-columns: minmax(40px, 40px) minmax(auto, 1fr);
+                        align-items: center;
+                        margin: 10px 0;
+
+
+                        .datos__icono {
+                              font-size: 30px;
+
+                              &.datos__icono--ubicacion {
+                                    color: blue;
+                              }
+
+                              &.datos__icono--mail {
+                                    color: red;
+                              }
+
+                              &.datos__icono--whatsapp {
+                                    color: green;
+                              }
+                        }
+
+                        .datos__texto {
+                              margin-bottom: 0;
+                              font-size: 12px;
+                        }
+                  }
+            }
+      }
+
+}

@@ -7,7 +7,7 @@
       flex-direction: row;
       flex-wrap: $isWrap;
       justify-content: center;
-      align-content: center;
+      align-items: center;
 }
 
 @mixin centrarConFlexboxColumn ($isWrap:wrap) {
@@ -16,4 +16,15 @@
       flex-wrap: $isWrap;
       justify-content: center;
       align-items: center;
+}
+
+@mixin formatoTituloContacto {
+      font-family: $fontFamily2;
+      font-size: 1.5rem;
+      font-weight: 600;
+}
+
+@mixin formatoSubtituloContacto {
+      font-weight: 400;
+      font-style: italic;
 }

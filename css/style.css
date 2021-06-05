@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*COLORES NAVBAR*/
 /*------INDEX------*/
 /*-------------BREAKPOINTS----------------------*/
@@ -8,7 +9,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -425,8 +426,9 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contenedorActividad .actividad:hover .actividad__imagen {
@@ -487,6 +489,205 @@ a {
           transform: scale(1.1);
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
+}
+
+.contenedorContacto .contenedorFormulario {
+  margin: auto;
+  border-radius: 0.25rem;
+  background: #faf6f1;
+}
+
+.contenedorContacto .contenedorFormulario .formulario__intro {
+  text-align: center;
+}
+
+.contenedorContacto .contenedorFormulario .formulario__intro .formulario__titulo {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contenedorContacto .contenedorFormulario .formulario__intro .formulario__subtitulo {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.contenedorContacto .contenedorFormulario .formulario {
+  background: #fcfcfc;
+  width: 100%;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .formulario__input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #226fc1;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1rem;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .formulario__radio .radio__input {
+  width: 10px;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .formulario__radio .radio__etiqueta {
+  font-size: 1rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .formulario__input--textarea {
+  min-height: 120px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .formularioCheckbox {
+  margin-bottom: 5px;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .formularioCheckbox .checkbox__boton {
+  width: 10px;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .formularioCheckbox .checkbox__texto {
+  font-size: 1rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .contenedorBotones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .contenedorBotones .boton {
+  width: 40%;
+  margin: 0 auto;
+  background: none;
+  border: 1px solid black;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .contenedorBotones .boton.boton--enviar {
+  border: 1px solid #4fb560;
+  color: #4fb560;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .contenedorBotones .boton.boton--enviar:hover {
+  background: #4fb560;
+  color: #fff;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .contenedorBotones .boton.boton--reset {
+  border: 1px solid red;
+  color: red;
+}
+
+.contenedorContacto .contenedorFormulario .formulario .contenedorBotones .boton.boton--reset:hover {
+  background: red;
+  color: #fff;
+}
+
+.contenedorContacto .contenedorMapa {
+  margin: auto;
+  border-radius: 0.25rem;
+  background: #faf6f1;
+}
+
+.contenedorContacto .contenedorMapa .ubicacion__intro {
+  text-align: center;
+  margin: auto;
+  border-radius: 0.25rem;
+  background: #faf6f1;
+}
+
+.contenedorContacto .contenedorMapa .ubicacion__intro .ubicacion__titulo {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contenedorContacto .contenedorMapa .ubicacion__intro .ubicacion__subtitulo {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario .mapa__pequeño {
+  display: static;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario .mapa__grande {
+  display: none;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario .datos .datos__item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(40px, 40px) minmax(auto, 1fr);
+      grid-template-columns: minmax(40px, 40px) minmax(auto, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario .datos .datos__item .datos__icono {
+  font-size: 30px;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario .datos .datos__item .datos__icono.datos__icono--ubicacion {
+  color: blue;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario .datos .datos__item .datos__icono.datos__icono--mail {
+  color: red;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario .datos .datos__item .datos__icono.datos__icono--whatsapp {
+  color: green;
+}
+
+.contenedorContacto .contenedorMapa .contenedorSecundario .datos .datos__item .datos__texto {
+  margin-bottom: 0;
+  font-size: 12px;
 }
 
 /*FOOTER*/
@@ -584,8 +785,9 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -669,8 +871,9 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -751,8 +954,9 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;

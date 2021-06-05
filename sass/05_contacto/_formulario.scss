@@ -1,0 +1,113 @@
+.contenedorFormulario {
+      margin: auto;
+      border-radius: 0.25rem;
+      background: rgb(250, 246, 241);
+
+      .formulario__intro {
+            text-align: center;
+
+            .formulario__titulo {
+                  @include formatoTituloContacto;
+            }
+
+            .formulario__subtitulo {
+                  @include formatoSubtituloContacto;
+            }
+      }
+
+      .formulario {
+            background: rgb(252, 252, 252);
+            width: 100%;
+            margin: 10px auto;
+            padding: 5px;
+            border-radius: 5px;
+
+            .formulario__input {
+                  display: block;
+                  width: 100%;
+                  padding: 5px;
+                  margin-bottom: 10px;
+                  border-radius: 3px;
+                  border: 1px solid #226fc1;
+                  font-family: $fontFamily2;
+                  font-size: $font-formulario-xxs;
+            }
+
+            .formulario__radio {
+                  .radio__input {
+                        width: 10px;
+                  }
+
+                  .radio__etiqueta {
+                        font-size: $font-formulario-xxs;
+                        font-family: $fontFamily2;
+                  }
+            }
+
+            .formulario__input--textarea {
+                  min-height: 120px;
+                  max-height: 300px;
+                  min-width: 100%;
+                  max-width: 100%;
+            }
+
+            .formularioCheckbox {
+                  margin-bottom: 5px;
+
+                  .checkbox__boton {
+                        width: 10px;
+                  }
+
+                  .checkbox__texto {
+                        font-size: $font-formulario-xxs;
+                        font-family: $fontFamily2;
+                  }
+            }
+
+            .contenedorBotones {
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: nowrap;
+                  justify-content: space-evenly;
+
+                  .boton {
+                        width: 40%;
+                        margin: 0 auto;
+                        background: none;
+                        border: 1px solid black;
+                        color: black;
+                        padding: 5px;
+                        cursor: pointer;
+                        font-family: $fontFamily2;
+                        border-radius: 3px;
+                        font-size: $font-formulario-xxs;
+
+                        &.boton--enviar {
+                              border: 1px solid #4fb560;
+                              color: #4fb560;
+
+
+                              &:hover {
+                                    background: #4fb560;
+                                    color: #fff;
+                              }
+                        }
+
+                        &.boton--reset {
+                              border: 1px solid red;
+                              color: red;
+
+                              &:hover {
+                                    background: red;
+                                    color: #fff;
+                              }
+                        }
+                  }
+
+
+            }
+
+      }
+
+
+}
