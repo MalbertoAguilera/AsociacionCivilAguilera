@@ -531,6 +531,10 @@ a {
   font-size: 1rem;
 }
 
+.contenedorContacto .contenedorFormulario .formulario .formulario__input:hover {
+  border: orangered;
+}
+
 .contenedorContacto .contenedorFormulario .formulario .formulario__radio .radio__input {
   width: 10px;
 }
@@ -985,9 +989,6 @@ a {
     border: 1px solid #226fc1;
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 1rem;
-  }
-  body .container .contenedorFormulario .formulario .formulario__input:hover {
-    border: orangered;
   }
   body .container .contenedorFormulario .formulario .formulario__radio .radio__input {
     width: 10px;
