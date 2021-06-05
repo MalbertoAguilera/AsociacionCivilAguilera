@@ -952,6 +952,108 @@ a {
   body .container .contenedorMapa .contenedorSecundario .mapa__mediano {
     display: none;
   }
+  body .container .contenedorFormulario {
+    margin: auto;
+    border-radius: 0.5rem;
+    background: #fcfcfc;
+    padding: 20px 5px;
+  }
+  body .container .contenedorFormulario .formulario__intro {
+    text-align: center;
+  }
+  body .container .contenedorFormulario .formulario__intro .formulario__titulo {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  body .container .contenedorFormulario .formulario__intro .formulario__subtitulo {
+    font-weight: 400;
+    font-style: italic;
+  }
+  body .container .contenedorFormulario .formulario {
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  body .container .contenedorFormulario .formulario .formulario__input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #226fc1;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1rem;
+  }
+  body .container .contenedorFormulario .formulario .formulario__input:hover {
+    border: orangered;
+  }
+  body .container .contenedorFormulario .formulario .formulario__radio .radio__input {
+    width: 10px;
+  }
+  body .container .contenedorFormulario .formulario .formulario__radio .radio__etiqueta {
+    font-size: 1rem;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+  }
+  body .container .contenedorFormulario .formulario .formulario__input--textarea {
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  body .container .contenedorFormulario .formulario .formularioCheckbox {
+    margin-bottom: 5px;
+  }
+  body .container .contenedorFormulario .formulario .formularioCheckbox .checkbox__boton {
+    width: 10px;
+  }
+  body .container .contenedorFormulario .formulario .formularioCheckbox .checkbox__texto {
+    font-size: 1rem;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+  }
+  body .container .contenedorFormulario .formulario .contenedorBotones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body .container .contenedorFormulario .formulario .contenedorBotones .boton {
+    width: 40%;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  body .container .contenedorFormulario .formulario .contenedorBotones .boton.boton--enviar {
+    border: 1px solid #4fb560;
+    color: #4fb560;
+  }
+  body .container .contenedorFormulario .formulario .contenedorBotones .boton.boton--enviar:hover {
+    background: #4fb560;
+    color: #fff;
+  }
+  body .container .contenedorFormulario .formulario .contenedorBotones .boton.boton--reset {
+    border: 1px solid red;
+    color: red;
+  }
+  body .container .contenedorFormulario .formulario .contenedorBotones .boton.boton--reset:hover {
+    background: red;
+    color: #fff;
+  }
   body .footer .contenedorFooter {
     max-width: 720px;
     display: -webkit-box;
