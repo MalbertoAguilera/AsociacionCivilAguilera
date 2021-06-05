@@ -388,7 +388,8 @@ a {
 }
 
 .contenedorActividad .actividad .actividad__titulo {
-  font-family: "Covered By Your Grace", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 600;
 }
 
 .contenedorActividad .actividad .actividad__imagen {
@@ -439,6 +440,147 @@ a {
 .contenedorActividad .actividad:hover .actividad__descripcion {
   background: #0116279d;
   opacity: 1;
+}
+
+.main__metodos {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin: 1rem auto;
+}
+
+.main__metodos .metodo {
+  border-radius: 10px;
+  border: 0.5px solid #e1e1e1;
+  padding: 1rem;
+  background-color: #FDFFFC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.main__metodos .metodo:active, .main__metodos .metodo:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border: 2px solid blueviolet;
+  background-color: #4545e7;
+}
+
+.main__metodos .metodo:active .metodo__titulo, .main__metodos .metodo:hover .metodo__titulo {
+  color: white;
+  text-shadow: 0px 0px 4px #09416c;
+}
+
+.main__metodos .metodo:active .metodo__informacion, .main__metodos .metodo:hover .metodo__informacion {
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 4px #09416c;
+  font-size: 14px;
+}
+
+.main__metodos .metodo:active .botonMetodo, .main__metodos .metodo:hover .botonMetodo {
+  background-color: white;
+}
+
+.main__metodos .metodo:active .botonMetodo .botonMetodo__icono, .main__metodos .metodo:active .botonMetodo .botonMetodo__texto, .main__metodos .metodo:hover .botonMetodo .botonMetodo__icono, .main__metodos .metodo:hover .botonMetodo .botonMetodo__texto {
+  color: #4545e7;
+}
+
+.main__metodos .metodo:active .botonMetodo .botonMetodo__texto, .main__metodos .metodo:hover .botonMetodo .botonMetodo__texto {
+  color: #4545e7;
+}
+
+.main__metodos .metodo .metodo__titulo {
+  text-align: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: uppercase;
+  color: #4545e7;
+}
+
+.main__metodos .metodo .metodo__informacion {
+  text-align: center;
+  color: #8b8b8b;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  font-size: 0.8rem;
+}
+
+.main__metodos .metodo .botonMetodo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: inline-block;
+  padding: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #4545e7;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.main__metodos .metodo .botonMetodo:hover {
+  border: 5px solid blueviolet;
+}
+
+.main__metodos .metodo .botonMetodo .botonMetodo__icono, .main__metodos .metodo .botonMetodo .botonMetodo__texto {
+  color: #fcfcfc;
+}
+
+.main__metodos .metodo .botonMetodo .botonMetodo__texto {
+  padding-left: 0.5rem;
+}
+
+.donaciones .card {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a9e4f7+0,0fb4e7+100&0.49+0,1+100;Ble+3D+%235 */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(169, 228, 247, 0.49)), to(#0fb4e7));
+  background: linear-gradient(to bottom, rgba(169, 228, 247, 0.49) 0%, #0fb4e7 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7da9e4f7', endColorstr='#0fb4e7', GradientType=0);
+  /* IE6-9 */
+  padding-top: 20px;
+}
+
+.donaciones .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.donaciones .card .card-body .card-title {
+  color: white;
+  text-shadow: 0px 0px 4px #09416c;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.donaciones .card .card-body .card-text {
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 4px #09416c;
+  font-size: 0.8rem;
 }
 
 .galeria {
