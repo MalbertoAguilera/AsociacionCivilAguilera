@@ -1,6 +1,6 @@
 .cardInfo {
       .cardInfo__elementos {
-            background-color: $color2;
+            background-color: $background;
             border-radius: .5rem;
             text-align: center;
 
@@ -11,8 +11,8 @@
             }
 
             .cardInfo__informacion{
-                  background: $color2;
-                  font-size: $font-xxs;
+                  background: $background;
+                  font-size: $font;
             }
       }
 }

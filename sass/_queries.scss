@@ -54,6 +54,7 @@
 
                   @import '../sass/breakpoints/04_md/01_index/index';
                   @import'../sass/breakpoints/04_md/02_actividades/actividades';
+                  @import '../sass/breakpoints/04_md/03_contribuciones/contribuciones';
                   @import '../sass/breakpoints/04_md/05_contacto/contacto';
 
             }
@@ -71,6 +72,7 @@
                   max-width: $contenedor-lg;
                   @import '../sass/breakpoints/05_lg/01_index/index';
                   @import'../sass/breakpoints/05_lg/02_actividades/actividades';
+                  @import '../sass/breakpoints/05_lg/03_contribuciones/contribuciones';
 
             }
             @import '../sass/breakpoints/05_lg/06_footer/footer';

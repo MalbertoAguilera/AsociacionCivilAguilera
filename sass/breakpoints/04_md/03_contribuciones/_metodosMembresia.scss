@@ -1,0 +1,22 @@
+.main__metodos {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+            "membresia      voluntario"
+            "empresa        empresa";
+
+      .metodo {
+
+            &.metodo--membresia {
+                  grid-area: membresia;
+            }
+
+            &.metodo--voluntario {
+                  grid-area: voluntario;
+            }
+
+            &.metodo--empresa {
+                  grid-area: empresa;
+            }
+
+      }
+}

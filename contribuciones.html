@@ -23,6 +23,8 @@
 
       <link rel="stylesheet" href="css\bootstrap.min.css">
       <link rel="stylesheet" href="css\style.css">
+      <link rel="stylesheet" href="css\animate.min.css">
+
       <title>Contribuciones</title>
 </head>
 
@@ -80,8 +82,7 @@
                                                 </a>
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                                                      <li><a class="dropdown-item" href="contribuciones.html">Nuestros
-                                                                  colaboradores</a></li>
+                                                      <li><a class="dropdown-item" href="contribuciones.html">Nuestros colaboradores</a></li>
                                                       <li>
                                                             <hr class="dropdown-divider">
                                                       </li>
@@ -119,7 +120,7 @@
                         </div>
                   </section>
                   <section class="row donaciones">
-                        <div class="card mb-3 col-12 col-md-4">
+                        <div class="card mb-3 col-12 col-md-4 wow animate__animated animate__fadeInUp">
                               <img src="img\03_contribuciones\im10.jpg" class="card-img-top" alt="Donación Nike">
                               <div class="card-body">
                                     <h5 class="card-title">NIKE</h5>
@@ -128,7 +129,7 @@
                                     </p>
                               </div>
                         </div>
-                        <div class="card mb-3 col-12 col-md-4">
+                        <div class="card mb-3 col-12 col-md-4 wow animate__animated animate__fadeInUp">
                               <img src="img\03_contribuciones\1.jpg" class="card-img-top" alt="Donacion St. Brendan´s">
                               <div class="card-body">
                                     <h5 class="card-title">St. Brendan´s</h5>
@@ -137,7 +138,7 @@
                                     </p>
                               </div>
                         </div>
-                        <div class="card mb-3 col-12 col-md-4">
+                        <div class="card mb-3 col-12 col-md-4 wow animate__animated animate__fadeInUp">
                               <img src="img\03_contribuciones\im15.jpg" class="card-img-top" alt="Donacion river plate">
                               <div class="card-body">
                                     <h5 class="card-title">River Plate</h5>
@@ -147,7 +148,7 @@
 
                   </section>
                   <section class="main__metodos">
-                        <div id="membresia" class="metodo metodo--membresia">
+                        <div id="membresia" class="metodo metodo--membresia wow animate__animated animate__fadeInUp">
                               <h2 class="metodo__titulo">Membresia</h2>
                               <p class="metodo__informacion">Ayudanos a poder seguir trabajando día a día para poder
                                     garantizar...</p>
@@ -156,7 +157,7 @@
                                     <span class="botonMetodo__texto">Ayudo así</span>
                               </a>
                         </div>
-                        <div id="voluntario" class="metodo metodo--voluntario">
+                        <div id="voluntario" class="metodo metodo--voluntario wow animate__animated animate__fadeInUp">
                               <h2 class="metodo__titulo">Voluntarios </h2>
                               <p class="metodo__informacion">Sumate al grupo de Voluntarios!!! Cada grano de arena suma!
                                     Y si sos profesional podes colaborar con tutorias en distinatas areas</p>
@@ -165,7 +166,7 @@
                                     <span class="botonMetodo__texto">Ayudo así</span>
                               </a>
                         </div>
-                        <div id="empresa" class="metodo metodo--empresa">
+                        <div id="empresa" class="metodo metodo--empresa wow animate__animated animate__fadeInUp">
                               <h2 class="metodo__titulo">Empresas</h2>
                               <p class="metodo__informacion">Junto a tu empresa, pueden colaborar para que todos...</p>
                               <a class="botonMetodo botonMetodo--color" href="#">
@@ -205,6 +206,10 @@
       </footer>
       <script src="js\bootstrap.min.js"></script>
       <script src="https://kit.fontawesome.com/f5acbd7984.js" crossorigin="anonymous"></script>
+      <script src="js\wow.min.js"></script>
+      <script>
+            new WOW().init();
+      </script>
 </body>
 
 </html>
